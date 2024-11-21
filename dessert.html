@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="recipe-style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dessert Recipes</title>
+</head>
+<body>
+  <div id="container">
+    <h1>Dessert Recipes</h1>
+    <div id="recipes-list">
+      <div class="recipe-box">
+        <a href="Dessert1.html">Pancakes</a>
+      </div>
+      <div class="recipe-box">
+        <a href="Dessert2.html">Omelette</a>
+      </div>
+      <div class="recipe-box">
+        <a href="Dessert3.html">Smoothie</a>
+      </div>
+      <div class="recipe-box">
+        <a href="Dessert4.html">French Toast</a>
+      </div>
+    </div>
+
+    <!-- Recipe Input Form -->
+    <div id="add-recipe">
+      <h2>Add a New Recipe</h2>
+      <form>
+        <label for="recipe-name">Recipe Name:</label>
+        <input type="text" id="recipe-name" placeholder="Enter recipe name"><br>
+
+        <label for="recipe-ingredients">Ingredients:</label>
+        <textarea id="recipe-ingredients" placeholder="Enter ingredients"></textarea><br>
+
+        <label for="recipe-method">Method:</label>
+        <textarea id="recipe-method" placeholder="Enter cooking method"></textarea><br>
+
+        <button type="submit">Add Recipe</button>
+      </form>
+    </div>
+
+    <button onclick="window.location.href='index.html'">Back</button>
+  </div>
+</body>
+</html>
+
